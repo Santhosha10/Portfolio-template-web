@@ -1,0 +1,103 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 10vh;
+    width: 100%;
+    /* background-image: url('/public//Assets/bg2.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: #ffffff;
+    animation: nav-load 500ms ease-in;
+}
+
+@keyframes nav-load{
+    0%{
+        transform: translateY(-100%);
+    }    
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.logo{
+    color: hsl(239, 100%, 50%);
+    cursor: pointer;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width :35% ;
+}
+.nav-items{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-items li{
+    text-decoration: none;
+    display: flex;
+    padding: .8rem;
+}
+
+.nav-items li:hover {
+    cursor: pointer;
+}
+
+.mobile-icon{
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    .logo{
+     display: flex; 
+    }
+    .nav-items {
+        display: none;
+    }
+
+    .nav-mobile>a{
+        color: hsl(0, 0%, 0%);
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
+
+    .nav-mobile{
+        position: absolute; 
+        display: block;
+        list-style: none;
+        background:hsla(0, 5%, 34%, 0.8);
+        top: 0;
+        right: 0;
+        padding: 2rem;
+        text-align: center;
+        width: 85%;
+        border: 2px solid hsl(0, 0%, 0%) ;
+        animation: nav-load 500ms ease-in;
+    }
+    .nav-mobile li{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        color: hsl(0, 0%, 0%);
+        cursor: pointer;
+        border-bottom: 3px solid hsl(0, 0%, 0%) ;
+        padding: .5rem;
+    }
+
+    .mobile-icon{
+        cursor: pointer;
+        z-index: 5;
+        display: flex;
+        background: transparent;
+        border: none;
+        font-weight: 800;
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+    }
+
+}

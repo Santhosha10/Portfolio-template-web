@@ -1,0 +1,88 @@
+.project-section{
+    /* background-image: url('/public//Assets/bg1.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: hsl(0, 0%, 98%);
+}
+.heading{
+    text-align: center;
+    padding: .5rem;
+    color: hsl(0, 100%, 50%);
+    font-weight: 600;
+    font-size: 1.9rem;
+    border-bottom: 2px solid hsl(0, 1%, 16%);
+}
+.project-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.9rem;
+    gap:3.3rem;
+}
+.project-card{
+    width: 24rem;
+    height: auto;
+    padding: 1rem;
+    /* background: url('/public/Assets/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    color: rgb(0, 0, 1);
+    box-shadow: 3px 2px 20px hsl(300, 87%, 66%);
+}
+.project-video{
+    height:13rem;
+    width: 23rem;
+    padding: .4rem;
+    box-shadow: 3px 2px 20px  hsl(0, 0%, 30%);
+}
+.project-des{
+    font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+}
+
+.project-btn1{
+    width: 9rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 5px;
+    background: hsl(0, 1%, 40%); 
+    color: #f3f2f2;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.project-video:hover{
+    scale: 1.1;
+}
+
+.project-btn1:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    scale: 1.1;
+    color: rgb(0, 157, 255);
+}
+
+@media screen and (max-width:60rem){
+    .project-main-container{
+        padding: 2rem;
+    }
+    .project-card{
+        width: 20rem;
+    }
+    .project-video{
+        width: 19rem;
+
+    }
+    .project-des , .project-title{
+        padding: .4rem;
+    }
+}

@@ -1,0 +1,66 @@
+.contact{
+    /* background-image: url('/public//Assets/bg2.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: #2c2b2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:1.9rem ;
+}
+.contact h3{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background: hsl(0, 2%, 92%);}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    width: 69%;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.contact-name , .contact-email {
+    height: 2rem;
+    padding: .4rem;
+    border-radius: 6px;
+    border: 2px solid  hsl(0, 0%, 17%);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contact-textarea{
+    height: 10rem;
+    width: 95%;
+    padding: 1rem;
+    border: 1px solid hsl(0, 2%, 17%);   
+    border-radius: 5px;
+    font-size: 1.2rem;
+    resize: vertical;
+    overflow-y: auto;
+}
+
+.btn{
+    border-radius: 5px;
+    background: hsl(0, 0%, 14%); 
+    color: #ffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    color: hsl(205, 100%, 50%);
+}

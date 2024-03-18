@@ -1,0 +1,136 @@
+.about {
+    /* background-image: url('/public//Assets/bg2.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    overflow: hidden;
+} 
+
+.heading-secondary {
+    border-bottom:2px solid hsl(0, 0%, 83%);
+    text-align: center;
+    height: 3rem;
+    padding: 1rem; 
+    /* animation: about-load 500ms ease-in; */
+}
+
+@keyframes about-load {
+    0%{
+        transform: translatex(100%) ;
+    }
+    100%{
+        transform: translatey(0);
+    }
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    height: 99vh;
+    padding: 2rem;
+    animation: about-container 500ms ease-in;
+}
+
+@keyframes about-container {
+    0%{
+        transform: translatey(100%) ;
+    }
+    100%{
+        transform: translatey(0);
+    }
+}
+
+.heading-quaternary{
+    text-align: center;
+    color: blue;
+}
+
+.text-primary{
+   padding: .5rem;
+   font-weight: 500;
+}
+.about__main-info {
+    width: auto;
+    margin-bottom: 4rem;
+}
+  
+.about__text-primary {
+    margin-bottom: 4rem;
+}
+  
+.about__info-heading {
+    margin-bottom: 3rem;
+}
+.heading-skills{
+    display: inline-block;
+    margin-left:10rem;
+    color: blue;
+}  
+.about__skills {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 33rem;
+}
+  
+.about__skill {
+    list-style: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem .7rem;
+    margin-right: 1rem;
+    margin-bottom: 1.7rem;
+    background: hsl(0, 1%, 18%);
+    box-shadow: 3px 2px 1px hsl(188, 100%, 53%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width:60rem) {
+    .about {
+        /* background-image: url('/public//Assets/bg2.jpg');
+        background-size:cover; */
+        background-position:center ;
+    } 
+    .about-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        height:auto;
+    }
+    
+    .about__skill-info{
+        width: auto;
+        margin-top:-6rem;
+    }
+    .about__skills{
+        width: 20rem;
+    }
+}
+
+
+@media screen and (max-width:48rem) {
+    .heading-secondary {
+        height: 5rem;
+        font-size: 1.1rem;
+        margin-right: 2rem;
+    }
+
+    .about__info {
+        width: 40rem;
+        display: flex;
+    }
+    .text-primary{
+        padding: 1rem;
+        width: 21rem;
+    }
+    .about__skill-info{
+        margin-top:-6rem;
+    }
+}
