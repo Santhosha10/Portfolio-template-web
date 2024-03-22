@@ -44,12 +44,12 @@ function Footer() {
         </div>
           <footer className='footer-social'>                   
             <div className='social-acc'>
-              <a href=''>Twitter</a>
-              <a href=''>Instagram</a>
-              <a href=''>LinkedIn</a>
-              <a href=''>GitHub</a>
-              <a href=''>Discord</a>
-              <a href=''>FaceBook</a>
+              <a href='#'>Twitter</a>
+              <a href='#'>Instagram</a>
+              <a href='#'>LinkedIn</a>
+              <a href='#'>GitHub</a>
+              <a href='#'>Discord</a>
+              <a href='#'>FaceBook</a>
             </div>
           </footer> 
       </div>
