@@ -44,7 +44,7 @@ function Footer() {
         </div>
           <footer className='footer-social'>                   
             <div className='social-acc'>
-             <ul style={list-style:none}>
+             <ul>
                 <li>Twitter</li>
                 <li>Instagram</li>
                 <li>LinkedIn</li>
