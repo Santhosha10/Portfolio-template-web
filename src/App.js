@@ -1,5 +1,3 @@
-import React from 'react';
-import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import HeroSection from './Components/HeroSection/HeroSection';
 import About from './Components/About/About';
