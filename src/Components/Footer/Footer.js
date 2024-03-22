@@ -36,9 +36,9 @@ function Footer() {
           </ul>
         </div>
         <div className='footer-content'>
-          <a href='#'>
+  
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam culpa harum ipsam, vero modi voluptatibus rerum quidem aliquam voluptatum .</h3>
-          </a>
+          
           
           <h5> copyright@ (UserName) {new Date().getFullYear()}</h5> 
         </div>
