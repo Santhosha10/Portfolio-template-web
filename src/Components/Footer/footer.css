@@ -54,6 +54,10 @@
     justify-content: space-around;
     align-items: flex-end;   
 }
+.social-acc ul{
+    display:flex;
+    justify-content:center;
+}
 .social-acc li{
     list-style:none;
     padding: 2rem;
