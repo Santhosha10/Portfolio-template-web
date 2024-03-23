@@ -1,5 +1,8 @@
 # Fresher Portfolio Template - React
 
+#live
+https://portfolio-template-react-js.netlify.app
+
 Welcome to the Fresher Portfolio Template repository!
 
 ## Description
